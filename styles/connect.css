@@ -1,0 +1,62 @@
+.container.connect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.forms h2 {
+    color: #00296B;
+    font-size: 46px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.message {
+    resize: vertical;
+    height: 200px;
+}
+
+.map {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.map img{
+    width: 85%;
+}
+
+input[type=text] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    width: 25%;
+    background-color: #00296B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 19px;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: #002053;
+}
